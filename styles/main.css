@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
+body {
+  background-color: #ebf7ff;
+}
+
+.container {
+  max-width: 80vw;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.top-left,
+.top-right {
+  width: 50vw;
+  height: 50vh;
+}
+
+.top-right img {
+  height: 45vh;
+  margin-left: 10%;
+}
+
+.dumbell {
+  width: 194px;
+  justify-content: center;
+}
+
+.deal {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 12px 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+#section-2 {
+  padding: 0 3rem;
+}
+
+#section-2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 2rem 1.5rem;
+  min-width: 20vw;
+  border: 2px solid #1d4d69;
+  border-radius: 8px;
+}
+
+.box h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.highlighted {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.compare-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-3 table {
+  margin-top: 40px;
+  margin-bottom: 140px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#section-3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#section-3 table td {
+  border-bottom: 2px solid black;
+}
+#section-3 table tr {
+  border-bottom: 2px solid black;
+}
+
+footer {
+  padding: 23px;
+}
